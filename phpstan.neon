@@ -1,0 +1,11 @@
+parameters:
+    level: 5
+    paths:
+        - app
+        - database
+        - routes
+
+    ignoreErrors:
+        - '#PHPDoc#'
+
+# docker exec -ti basic-laravel-form-laravel.test-1 ./vendor/bin/phpstan analyse --memory-limit=1G
